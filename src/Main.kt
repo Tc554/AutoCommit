@@ -14,7 +14,7 @@ fun main() {
     do {
         with(file) {
             setWritable(true)
-            writeText("e")
+            writeText(readText() + "e")
         }
 
         println("Staging changes...")
