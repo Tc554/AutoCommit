@@ -26,9 +26,9 @@ fun main() {
         println("Pushing to repository...")
         println(runCommand("git push"))
 
-        sleep(2)
+        sleep(2000)
         println("Starting next commit in 3 seconds...")
-        sleep(3)
+        sleep(3000)
     } while (true)
 }
 
