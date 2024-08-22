@@ -2,6 +2,7 @@ import java.io.BufferedReader
 import java.io.File
 import java.io.InputStreamReader
 import java.lang.Thread.sleep
+import kotlin.random.Random
 
 /**
  * @author TastyCake
@@ -28,7 +29,7 @@ fun main() {
 
         sleep(2000)
         println("Starting next commit in 3 seconds...")
-        sleep(3000)
+        sleep(Random.nextInt(2000, 10000) + 1L)
     } while (true)
 }
 
