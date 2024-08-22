@@ -8,7 +8,7 @@ import java.lang.Thread.sleep
  * @date 8/22/2024
  */
 
-val file = File("../complicatedCode.123")
+val file = File("C:\\Users\\user\\IdeaProjects\\AutoCommit\\complicatedCode.123")
 
 fun main() {
     do {
