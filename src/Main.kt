@@ -29,7 +29,7 @@ fun main() {
 
         sleep(2000)
         println("Starting next commit soon...")
-        sleep(Random.nextInt(4000, 10000) + 1L)
+        sleep(Random.nextInt(3000, 9000) + 1L)
     } while (true)
 }
 
