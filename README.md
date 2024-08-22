@@ -7,4 +7,4 @@ in github, click on your profile > Settings > Developer settings > Personal acce
 then copy the token and save it somewhere.
 now back to the code, unzip the ```.zip``` file and open the project, then share the project on github to create your own repo, now open terminal in the project directory
 and run this code ```git remote set-url origin https://<TOKEN>@github.com/<USERNAME>/<REPO NAME>.git``` its basically your repo url but put the token before the github.com
-now you are good to go, run the Main class, and boom!
+now you are good to go, run the Main class, and boom! you are a fullstack dev now!!!
