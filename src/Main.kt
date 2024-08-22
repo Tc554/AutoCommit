@@ -28,8 +28,8 @@ fun main() {
         println(runCommand("git push"))
 
         sleep(2000)
-        println("Starting next commit in 3 seconds...")
-        sleep(Random.nextInt(2000, 10000) + 1L)
+        println("Starting next commit soon seconds...")
+        sleep(Random.nextInt(4000, 10000) + 1L)
     } while (true)
 }
 
