@@ -13,6 +13,7 @@ val file = File("../complicatedCode.123")
 fun main() {
     do {
         with(file) {
+            setWritable(true)
             writeText("e")
         }
 
